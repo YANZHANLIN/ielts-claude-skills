@@ -1,4 +1,4 @@
-# IELTS Claude Code Skills
+# IELTS Claude Code Skills V2.0
 
 > 用 AI 代替雅思培训班。6 个 Claude Code Skill 组成一个完整的备考教练团队——诊断定位、写作批改、阅读精读、口语素材、词汇训练、进度追踪，全部跨会话记忆。
 
