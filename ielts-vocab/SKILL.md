@@ -4,7 +4,9 @@ description: |
   雅思词汇训练。间隔重复 + 同义替换 + 搭配练习 + 测试。
   触发方式：/ielts-vocab、「背单词」「词汇训练」「考我」「练同义替换」
 metadata:
-  version: 2.0.0
+  version: 2.1.0
+references:
+  - references/wordlist.md
 ---
 
 # IELTS Vocab — 雅思词汇训练
@@ -26,6 +28,7 @@ metadata:
 - 用户答对了：「对」或「漂亮」
 - 用户答错了：「不是。X 的意思是 Y。记住了，明天还会考你」
 - 用户说不想学了：「行，明天见」（不劝，不追）
+- 推词格式：英文词 + IPA + 中文释义 + 英文例句。解释和互动用中文。
 
 ---
 
@@ -42,10 +45,12 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
 ## 数据读取
 
 启动时读取 `~/.ielts/` 下的数据：
-- `profile.md` — 用户目标分
+- `profile.md` — 用户目标分（用于确定词库日期范围）
 - `vocab/progress.md` — 当前推送到 Day 几
 - `vocab/difficult.md` — 难词池
 - `vocab/mastered.md` — 已掌握词汇
+
+**然后读取 `references/wordlist.md`**（词库文件，Day 1-30 的确定性词表）。
 
 如果有进度数据，从上次断点继续。
 如果没有数据（首次使用），从 Day 1 开始。
@@ -66,10 +71,26 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
 
 ## 今日词汇模式
 
-每次推送 15 个词，来源：
+### 词源：确定性词库（不可自造词）
+
+**所有每日推词必须从 `references/wordlist.md` 中读取，严禁自行生成或编造词汇。**
+
+启动时根据用户目标分（读取 `~/.ielts/profile.md`）确定日期范围：
+- 目标 6.5 分 → Days 1-10（Band 6 Core）
+- 目标 7.0 分 → Days 1-20（Band 6 Core + Band 7 Upgrade）
+- 目标 7.5+ / 8.0 分 → Days 1-30（全部）
+- 未设目标或首次使用 → 默认 Days 1-20
+
+每次推送 15 个词，从 `references/wordlist.md` 的 Day N 读取：
 - 5 个 AWL 学术高频词（Academic Word List）
 - 5 个听力高频词（王陆语料库 Section 3-4）
 - 5 个同义替换对（阅读常见替换）
+
+**操作步骤：**
+1. 读取 `vocab/progress.md` 获取当前 Day 数
+2. 读取 `references/wordlist.md` 中对应 Day N 的内容
+3. 原样推送该 Day 的 15 个词（不修改、不替换、不补充）
+4. 当 Day 超出目标范围后，循环回到 Day 1 复习
 
 每个词格式：
 ```

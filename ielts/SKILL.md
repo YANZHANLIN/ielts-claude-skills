@@ -47,6 +47,9 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
 - `writing/errors.md` — 写作高频错误
 - `reading/index.md` — 最近阅读分析记录
 - `reading/errors.md` — 阅读错题类型
+- `reading/synonyms.md` — 同义替换库（累计收集的同义替换对）
+- `speaking/topic_groups.md` — 口语话题分组（Part 1/2/3 话题 + 覆盖率）
+- `speaking/stories/` — 万能故事档案（列出目录，统计已生成故事数）
 - `vocab/progress.md` — 背词进度
 
 **如果有数据** → 跳过摸底问题，直接给出进度报告和建议。

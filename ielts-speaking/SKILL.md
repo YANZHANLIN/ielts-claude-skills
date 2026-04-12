@@ -1,8 +1,8 @@
 ---
 name: ielts-speaking
 description: |
-  雅思口语素材工厂。话题分组 + 万能故事生成 + Part 3追问预测 + 高分表达 + 跨会话素材积累。
-  触发方式：/ielts-speaking、「口语素材」「话题分组」「万能故事」「Part 2准备」
+  雅思口语素材工厂。Part 1高频练习 + 话题分组 + 万能故事生成 + Part 3追问预测 + 高分表达 + 跨会话素材积累。
+  触发方式：/ielts-speaking、「口语素材」「话题分组」「万能故事」「Part 1准备」「Part 2准备」
 metadata:
   version: 2.0.0
 ---
@@ -53,7 +53,7 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
 
 1. **口语考的不是英语，是你把不同问题转化到已有素材的能力**
 2. **准备50个答案是错的，准备5个万能故事是对的**
-3. **Part 1 不需要专门准备，2-3句自然回答就行**
+3. **Part 1 对 7 分以上考生不需要专门准备，但 6 分以下考生建议练习高频话题的流利回答**
 4. **Part 3 靠的是思考能力，不是背答案——但可以准备框架**
 5. **不考口音。中式英语完全没问题，只要清晰、流利、有逻辑**
 
@@ -72,13 +72,139 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
 
 ---
 
-## 三种模式
+## 四种模式
 
 | 模式 | 触发 | 做什么 |
 |------|------|--------|
+| **Part 1 高频话题练习** | 用户说"练Part 1"或"Part 1准备" | 15个高频话题 + 典型问题 + 模板回答 + 反馈 |
 | **话题分组** | 用户给了题库（或说"帮我分组"） | 50个话题分成5组 + 每组一个万能故事 |
 | **故事生成** | 用户说"帮我准备某个话题" | 生成完整的Part 2回答 + Part 3预测 |
 | **表达升级** | 用户给了自己的回答 | 升级词汇和句型，保持口语自然感 |
+
+---
+
+## Part 1 高频话题练习模式
+
+### 适用人群
+目标 6 分及以下的考生，或 Part 1 经常卡壳、回答过短/过长的考生。
+
+### 注意事项
+- Part 1 回答应该是 **2-4 句话**，不是长篇演讲
+- 目标是自然、流利、有内容，不是展示高级词汇
+- 每个回答控制在 15-30 秒
+
+### 15 个高频话题 + 典型问题
+
+#### 1. Hometown（家乡）
+- Where are you from?
+- What do you like about your hometown?
+- Has your hometown changed much recently?
+- Would you like to live there in the future?
+
+#### 2. Work/Study（工作/学习）
+- Do you work or are you a student?
+- What do you like about your job/studies?
+- Why did you choose that subject/career?
+- Would you like to change your job/subject?
+
+#### 3. Home/Accommodation（住所）
+- Do you live in a house or an apartment?
+- What's your favourite room?
+- Would you like to move to a different place?
+
+#### 4. Family（家庭）
+- Do you have a big family?
+- Do you spend much time with your family?
+- Who are you closest to in your family?
+
+#### 5. Friends（朋友）
+- Do you prefer having a few close friends or many friends?
+- How often do you see your friends?
+- What do you usually do with your friends?
+
+#### 6. Daily routine（日常作息）
+- What does a typical day look like for you?
+- Do you prefer mornings or evenings?
+- Has your daily routine changed recently?
+
+#### 7. Food/Cooking（饮食/烹饪）
+- What's your favourite food?
+- Do you cook at home?
+- Has your taste in food changed over the years?
+
+#### 8. Weather（天气）
+- What kind of weather do you like?
+- Does the weather affect your mood?
+- What's the weather like in your city?
+
+#### 9. Transport（交通）
+- How do you usually get around?
+- Do you prefer public transport or driving?
+- Is traffic a problem in your city?
+
+#### 10. Reading（阅读）
+- Do you like reading?
+- What kind of books do you read?
+- Do you prefer reading on screen or on paper?
+
+#### 11. Music（音乐）
+- What kind of music do you like?
+- Do you play any musical instruments?
+- Has your taste in music changed?
+
+#### 12. Sports（运动）
+- Do you play any sports?
+- What sports are popular in your country?
+- Do you prefer watching or playing sports?
+
+#### 13. Shopping（购物）
+- Do you like shopping?
+- Do you prefer shopping online or in stores?
+- What was the last thing you bought?
+
+#### 14. Holidays（假期）
+- Do you like travelling during holidays?
+- What did you do on your last holiday?
+- Do you prefer relaxing or active holidays?
+
+#### 15. Technology（科技）
+- How often do you use your phone?
+- What's your favourite app?
+- Do you think people rely too much on technology?
+
+### 回答模板结构
+
+每个回答遵循 **D-R-E 结构**：
+
+| 步骤 | 内容 | 句数 |
+|------|------|------|
+| **D — Direct answer**（直接回答） | 一句话正面回答问题 | 1 句 |
+| **R — Reason / Detail**（原因/细节） | 解释为什么，或补充具体细节 | 1-2 句 |
+| **E — Example**（举例，可选） | 一个简短的个人例子 | 0-1 句 |
+
+**示范：**
+
+> **Q: Do you like cooking?**
+>
+> **D:** Yeah, I actually enjoy cooking quite a bit.
+> **R:** It helps me unwind after a long day, and I like trying out new recipes on weekends.
+> **E:** Last week I made Thai green curry for the first time — it turned out surprisingly well.
+
+### 练习流程
+
+1. **展示话题**：从 15 个高频话题中选一个（随机或用户指定）
+2. **展示问题**：给出该话题下的一个典型问题
+3. **用户回答**：用户用英文回答（文字即可）
+4. **教练反馈**：从三个维度给反馈
+
+| 维度 | 关注点 |
+|------|--------|
+| **Fluency（流利度）** | 回答是否够长（2-4句）？是否过长（像 Part 2）？有没有不必要的停顿词？ |
+| **Vocabulary（词汇）** | 有没有过于基础的用词可以替换？有没有不自然的翻译腔？ |
+| **Grammar（语法）** | 时态是否正确？主谓是否一致？句型是否单一？ |
+
+5. **给出改进版**：保持用户原意，升级表达，标注修改点
+6. **问下一题**：继续同一话题或换话题
 
 ---
 

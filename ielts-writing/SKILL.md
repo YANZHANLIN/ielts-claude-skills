@@ -25,6 +25,7 @@ metadata:
 - 改写对比是你的核心价值：让用户看到差距在哪
 - 用户连续几次分数不涨 → 用数据分析哪个维度在进步哪个卡住
 - 用户明显情绪崩溃 → 「今天先别写了。去 /ielts 找教练聊聊。明天再来，我等你。」
+- 中文为主，雅思术语用英文。评分维度用英文缩写（TR/CC/LR/GRA）。引用用户原文和改写示范保持英文。
 
 ---
 
@@ -94,10 +95,131 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
    - 抄了题目原文 → 抄的词不算字数，考官会标记
    - 立场不清晰 → 不要两边都同意
 
-**Task 1 审题：**
-- 识别图表类型（柱状图/折线图/饼图/地图/流程图/表格）
-- 提醒关键要素：时间范围、单位、需要比较的对象
-- 提醒：不需要个人观点，只描述数据
+**Task 1 Academic 审题：**
+
+1. **识别图表类型**
+   - 柱状图 / 折线图 / 饼图 / 表格（数据描述类）
+   - 地图（变化描述类）
+   - 流程图（过程描述类）
+
+2. **关键要素提醒**
+   - 时间范围、单位、需要比较的对象
+   - 不需要个人观点，只描述数据
+   - **最低字数：150 词**（低于 150 词直接扣分，与 Task 2 的 250 词不同）
+
+3. **Overview 段落（Band 7+ 必须）**
+   - Overview 是 Task 1 拿高分的关键——没有 Overview 直接锁死 5 分
+   - 必须用 1-2 句话概括**最主要的趋势/特征/差异**
+   - 不写具体数字，只写宏观总结
+   - 放在开头段之后、正文段之前
+   - 例：*Overall, the number of students enrolled in university courses increased significantly over the period, while part-time enrolments remained relatively stable.*
+
+4. **评分标准区分：Task Achievement (TA) vs Task Response (TR)**
+   - Task 1 使用 **Task Achievement (TA)** 评分——强调数据覆盖、Overview、关键特征选择
+   - Task 2 使用 **Task Response (TR)** 评分——强调立场、论点展开、回答完整性
+   - 两者评分描述不同，不可混用
+
+5. **数据选择策略**
+   - 不要描述每一个数字——选择最显著的趋势和对比
+   - 优先选择：最高/最低值、最大变化、明显的分组/趋势
+   - 将相似趋势的数据分组描述，而非逐一列举
+
+6. **按图表类型的语言指南**
+
+   **折线图（Line Graph）— 趋势语言：**
+   - 上升：increased steadily / rose sharply / grew gradually / climbed to
+   - 下降：declined significantly / fell steadily / dropped to / decreased gradually
+   - 波动：fluctuated between X and Y / experienced fluctuations
+   - 峰值：peaked at X / reached a peak of X / hit a high of X
+   - 低谷：reached a low of X / bottomed out at X / fell to its lowest point of X
+   - 稳定：remained stable / levelled off / stayed constant at X / plateaued
+
+   **柱状图（Bar Chart）— 比较语言：**
+   - 最高/最低：the highest/lowest figure was for X / X had the most/least
+   - 差异：significantly higher/lower than / roughly equal to / almost twice as much as
+   - 排序：X was followed by Y / the second largest was Y
+   - 倍数：X was approximately three times higher than Y / double/triple the amount of
+
+   **饼图（Pie Chart）— 比例语言：**
+   - 占比：accounted for X% / comprised X% of the total / represented X%
+   - 最大份额：the largest share/proportion belonged to X / X dominated with X%
+   - 合计：together, X and Y made up over half / combined, they accounted for X%
+   - 少数：a negligible/marginal proportion / only a small fraction
+
+   **表格（Table）— 数据选择策略：**
+   - 不要逐行逐列描述每个数字
+   - 选择关键对比：最大值、最小值、显著差异、明显趋势
+   - 按主题分组描述（如按国家、按时间段）
+   - 用排名或倍数关系替代逐一列数
+
+   **流程图（Process/Flow Chart）— 顺序语言：**
+   - 开始：the process begins with / the first step involves / initially
+   - 过渡：subsequently / following this / after that / the next stage is
+   - 结束：finally / the last step is / the process concludes with
+   - 被动语态为主：X is collected → it is then processed → the resulting Y is stored
+   - 注意标注步骤数量：there are X stages in total
+
+   **地图（Map）— 变化描述语言：**
+   - 替代：X was replaced by Y / was demolished and replaced with
+   - 转变：was converted into / was transformed into / was turned into
+   - 新建：a new X was built/constructed / X was added to the area
+   - 扩展：was extended / was expanded / was widened
+   - 保留：remained unchanged / was retained / was left intact
+   - 方位：to the north/south/east/west of / in the northeast corner / adjacent to
+
+**General Training Task 1 审题（书信写作）：**
+
+1. **识别书信类型**
+   - **正式信（Formal）**：写给雇主、公司、政府官员、不认识的人
+   - **半正式信（Semi-formal）**：写给老师、房东、邻居、不太熟的人
+   - **非正式信（Informal）**：写给朋友、家人
+
+2. **称呼与结尾规范**
+
+   | 类型 | 称呼 | 结尾 |
+   |------|------|------|
+   | 正式（不知姓名） | Dear Sir or Madam, | Yours faithfully, |
+   | 正式（知道姓名） | Dear Mr/Mrs/Ms Smith, | Yours sincerely, |
+   | 半正式 | Dear Mr/Mrs/Ms Smith, | Yours sincerely, / Best regards, |
+   | 非正式 | Dear John, / Hi John, | Best wishes, / Take care, / Love, |
+
+3. **语气与用语（Register）**
+
+   **正式信：**
+   - 不用缩写（I would like → 不写 I'd like）
+   - 不用俚语或口语表达
+   - 使用被动语态和正式词汇（inform, request, enquire, regarding）
+   - 例：I am writing to express my dissatisfaction with...
+
+   **半正式信：**
+   - 可以少量使用缩写
+   - 语气礼貌但不过度正式
+   - 例：I am writing to let you know that...
+
+   **非正式信：**
+   - 自由使用缩写（I'm, don't, can't）
+   - 使用口语化表达、感叹、提问
+   - 例：Hey! Guess what? I've just moved to a new place!
+
+4. **结构模板**
+   ```
+   开头（1-2句）：说明写信目的
+   正文段1（3-4句）：第一个要点（题目通常给 3 个 bullet points）
+   正文段2（3-4句）：第二、三个要点
+   结尾（1-2句）：期望的行动/总结/告别
+   ```
+
+5. **评分说明**
+   - GT Task 1 同样使用 **Task Achievement (TA)** 评分
+   - TA 评分描述针对书信有专门标准：是否完成了所有 bullet points、语气是否匹配书信类型、格式是否正确
+   - 语气错配（如给朋友写正式信）= TA 直接降分
+   - **最低字数：150 词**
+
+6. **常见审题错误提醒**
+   - 没有覆盖题目给的所有 bullet points → TA 降到 5
+   - 书信类型判断错误（该写正式信写成了非正式）→ TA 降分
+   - 忘记写称呼或结尾 → 格式扣分
+   - 正式信中使用了缩写或口语 → LR 降分
 
 ---
 
