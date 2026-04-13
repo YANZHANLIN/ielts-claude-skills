@@ -758,3 +758,130 @@
 3. **trivial** = negligible / insignificant / inconsequential | The difference between the two groups was negligible.
 4. **crucial** = paramount / indispensable / imperative | It is imperative that action is taken immediately.
 5. **controversial** = contentious / divisive / polarising | The policy remains highly contentious among stakeholders.
+
+---
+
+## Band 7.5+ 補充詞（來源：雅思必備核心詞匯 Level 3-4）
+
+### Day 31
+
+**AWL Words:**
+1. **formulate** /ˈfɔːmjuleɪt/ 构想出；规划 | The committee formulated a new strategy to address the crisis.
+2. **endeavour** /ɪnˈdevər/ 努力；尝试 | Scientists endeavour to find sustainable energy solutions.
+3. **impetus** /ˈɪmpɪtəs/ 推动力；促进 | The report provided the impetus for sweeping policy reform.
+4. **consolidate** /kənˈsɒlɪdeɪt/ 合并；巩固 | The merger consolidated three departments into one unit.
+5. **precedent** /ˈpresɪdənt/ 先例；在前的 | The ruling set a legal precedent for future cases.
+
+**Contextual High-Frequency Words:**
+1. **trajectory** /trəˈdʒektəri/ 轨迹；发展路径 | The trajectory of economic growth has shifted dramatically.
+2. **verdict** /ˈvɜːdɪkt/ 裁决；判断 | The jury reached a unanimous verdict after three days.
+3. **onset** /ˈɒnset/ 开始；发作 | The onset of symptoms usually occurs within 48 hours.
+4. **remnant** /ˈremnənt/ 残余；剩余的 | Only remnants of the original settlement can be seen today.
+5. **perpetual** /pəˈpetʃuəl/ 永久的；终身的 | The region exists in a state of perpetual conflict.
+
+**Synonym Pairs:**
+1. **obstruct** = impede / hamper / thwart | Bureaucratic procedures impede the progress of development projects.
+2. **portray** = depict / illustrate / render | The documentary depicts the harsh realities of urban poverty.
+3. **plausible** = credible / tenable / convincing | The hypothesis is tenable but requires further testing.
+4. **adverse** = detrimental / unfavourable / deleterious | The drug had deleterious effects on liver function.
+5. **volatile** = unstable / erratic / unpredictable | The stock market has been increasingly erratic in recent months.
+
+---
+
+### Day 32
+
+**AWL Words:**
+1. **coherent** /kəʊˈhɪərənt/ 连贯的；一致的 | The essay presents a coherent argument supported by evidence.
+2. **concurrent** /kənˈkʌrənt/ 同时发生的 | Two concurrent studies produced conflicting results.
+3. **propel** /prəˈpel/ 推进；驱使 | Technological innovation has propelled economic growth.
+4. **rigorous** /ˈrɪɡərəs/ 严密的；严格的 | The methodology must be rigorous to ensure valid results.
+5. **integral** /ˈɪntɪɡrəl/ 完整的；不可缺少的 | Community engagement is integral to the success of the programme.
+
+**Contextual High-Frequency Words:**
+1. **momentum** /məˈmentəm/ 动力；势头 | The campaign gained momentum after the televised debate.
+2. **hierarchy** /ˈhaɪərɑːki/ 等级制度 | A rigid hierarchy can stifle creativity within organisations.
+3. **spectrum** /ˈspektrəm/ 光谱；范围 | The policy affects a broad spectrum of social groups.
+4. **epoch** /ˈiːpɒk/ 新纪元；时代 | The invention of the printing press marked a new epoch in communication.
+5. **monopoly** /məˈnɒpəli/ 垄断 | The company held a virtual monopoly over the telecommunications market.
+
+**Synonym Pairs:**
+1. **drastic** = radical / sweeping / far-reaching | The government introduced sweeping reforms to the education system.
+2. **tentative** = provisional / preliminary / speculative | The preliminary findings suggest a link between diet and mood.
+3. **conspicuous** = prominent / striking / salient | The most salient feature of the policy is its focus on equity.
+4. **negligible** = minimal / trivial / marginal | The environmental impact of the project was deemed marginal.
+5. **meticulous** = painstaking / thorough / exacting | The restoration required painstaking attention to historical accuracy.
+
+---
+
+### Day 33
+
+**AWL Words:**
+1. **subsidise** /ˈsʌbsɪdaɪz/ 补贴；资助 | The government subsidises public transport to reduce congestion.
+2. **empirical** /ɪmˈpɪrɪkəl/ 实证的；经验主义的 | The theory must be supported by empirical data to be credible.
+3. **attain** /əˈteɪn/ 达到；获得 | Few students attain fluency without extended immersion.
+4. **correlate** /ˈkɒrəleɪt/ 相互关联 | Higher education levels correlate with improved health outcomes.
+5. **autonomous** /ɔːˈtɒnəməs/ 自治的；自主的 | The region operates as an autonomous administrative unit.
+
+**Contextual High-Frequency Words:**
+1. **aesthetic** /iːsˈθetɪk/ 美学的；审美的 | The building's aesthetic appeal has attracted international attention.
+2. **cohesive** /kəʊˈhiːsɪv/ 粘着的；有凝聚力的 | A cohesive team is more productive than a fragmented one.
+3. **cognitive** /ˈkɒɡnətɪv/ 认知的 | Bilingualism enhances cognitive flexibility in young children.
+4. **litigation** /ˌlɪtɪˈɡeɪʃən/ 诉讼 | The cost of litigation discouraged smaller firms from pursuing claims.
+5. **sustainability** /səˌsteɪnəˈbɪləti/ 可持续性 | Sustainability must be embedded in every stage of the supply chain.
+
+**Synonym Pairs:**
+1. **suppress** = stifle / inhibit / curtail | The new regulation could stifle innovation in the tech sector.
+2. **provoke** = elicit / incite / trigger | The announcement triggered widespread public debate.
+3. **obscure** = ambiguous / opaque / cryptic | The legal jargon renders the document opaque to ordinary citizens.
+4. **feasible** = viable / practicable / achievable | The plan is economically viable only with government support.
+5. **concurrent** = simultaneous / parallel / synchronous | The two experiments ran in parallel over a six-month period.
+
+---
+
+### Day 34
+
+**AWL Words:**
+1. **invoke** /ɪnˈvəʊk/ 援引；引用 | The lawyer invoked a rarely used clause in the contract.
+2. **ratify** /ˈrætɪfaɪ/ 批准；认可 | All member states must ratify the agreement before it takes effect.
+3. **undermine** /ˌʌndəˈmaɪn/ 破坏；逐渐削弱 | Persistent misinformation undermines public trust in science.
+4. **disseminate** /dɪˈsemɪneɪt/ 传播；散布 | Findings should be disseminated to both academic and public audiences.
+5. **deviate** /ˈdiːvieɪt/ 偏离；背离 | Any deviation from the established protocol must be documented.
+
+**Contextual High-Frequency Words:**
+1. **paradigm** /ˈpærədaɪm/ 范式；典范 | The digital revolution has created a new paradigm in journalism.
+2. **dichotomy** /daɪˈkɒtəmi/ 二分法；对立 | The dichotomy between nature and nurture is increasingly seen as false.
+3. **trajectory** /trəˈdʒektəri/ 轨迹 | The country's economic trajectory depends on continued investment.
+4. **rhetoric** /ˈretərɪk/ 修辞；花言巧语 | Political rhetoric often oversimplifies complex social issues.
+5. **discourse** /ˈdɪskɔːs/ 论述；话语 | Academic discourse requires precision and objectivity.
+
+**Synonym Pairs:**
+1. **eloquent** = articulate / fluent / persuasive | The speaker delivered an articulate defence of the policy.
+2. **proliferate** = multiply / burgeon / mushroom | Social media platforms have mushroomed over the past decade.
+3. **diminish** = abate / wane / subside | Public interest in the scandal gradually subsided.
+4. **exacerbate** = intensify / amplify / compound | Rising temperatures compound the effects of deforestation.
+5. **scrutinise** = examine / probe / dissect | The committee will probe the financial records for irregularities.
+
+---
+
+### Day 35
+
+**AWL Words:**
+1. **reconcile** /ˈrekənsaɪl/ 调和；使一致 | It is difficult to reconcile economic growth with environmental protection.
+2. **substantiate** /səbˈstænʃieɪt/ 证实；证明有据 | The claims were not substantiated by the available evidence.
+3. **circumvent** /ˌsɜːkəmˈvent/ 规避；绕过 | Some companies circumvent environmental regulations by relocating abroad.
+4. **stipulate** /ˈstɪpjuleɪt/ 规定；约定 | The contract stipulates a minimum notice period of three months.
+5. **delineate** /dɪˈlɪnieɪt/ 描述；界定 | The report delineates the boundaries of the proposed conservation zone.
+
+**Contextual High-Frequency Words:**
+1. **repercussion** /ˌriːpəˈkʌʃən/ 反响；后果 | The policy had far-reaching repercussions for the healthcare system.
+2. **juxtaposition** /ˌdʒʌkstəpəˈzɪʃən/ 并列；对比 | The juxtaposition of wealth and poverty is stark in many cities.
+3. **catalyst** /ˈkætəlɪst/ 催化剂；促进因素 | The pandemic served as a catalyst for digital transformation.
+4. **precedent** /ˈpresɪdənt/ 先例 | The court decision established a precedent for future rulings.
+5. **disparity** /dɪˈspærəti/ 差异；不等 | Income disparity between urban and rural areas continues to widen.
+
+**Synonym Pairs:**
+1. **arbitrary** = random / capricious / indiscriminate | The allocation of resources appeared indiscriminate and unfair.
+2. **inherent** = intrinsic / innate / ingrained | Curiosity is an innate human characteristic.
+3. **transient** = ephemeral / fleeting / short-lived | The economic boom proved to be short-lived.
+4. **ubiquitous** = pervasive / omnipresent / prevalent | Smartphones are now omnipresent in daily life.
+5. **paradox** = contradiction / anomaly / incongruity | There is a striking incongruity between stated aims and actual outcomes.

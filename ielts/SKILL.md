@@ -4,7 +4,7 @@ description: |
   雅思备考 AI 教练系统入口。路由 + 进度追踪 + 复盘 + 规划。
   触发方式：/ielts、「我要备考雅思」「雅思怎么准备」「IELTS」「看看进度」
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # IELTS — 雅思备考 AI 教练系统
@@ -32,7 +32,7 @@ metadata:
 首次使用时，运行以下命令创建数据目录（已存在则跳过）：
 
 ```bash
-mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,vocab}
+mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,vocab,listening/dictation}
 ```
 
 ---
@@ -50,6 +50,9 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
 - `reading/synonyms.md` — 同义替换库（累计收集的同义替换对）
 - `speaking/topic_groups.md` — 口语话题分组（Part 1/2/3 话题 + 覆盖率）
 - `speaking/stories/` — 万能故事档案（列出目录，统计已生成故事数）
+- `listening/index.md` — 最近听力练习记录
+- `listening/errors.md` — 听力错题类型
+- `listening/scene_vocab.md` — 场景词汇库
 - `vocab/progress.md` — 背词进度
 
 **如果有数据** → 跳过摸底问题，直接给出进度报告和建议。
@@ -72,6 +75,7 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
    - D. 我要准备口语素材
    - E. 我做完了一套题，帮我分析
    - F. 我要背单词
+   - G. 我要练听力
 
 ### Step 2：路由
 
@@ -82,10 +86,12 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
 | C | `/ielts-reading` | 阅读精读训练 |
 | D | `/ielts-speaking` | 口语素材生成 |
 | F | `/ielts-vocab` | 词汇训练 |
+| G | `/ielts-listening` | 听力训练 |
 
 如果用户没选直接丢了一篇作文过来 → 直接进 `/ielts-writing`。
 如果用户丢了阅读文章和题目 → 直接进 `/ielts-reading`。
 如果用户给了四科成绩 → 直接进 `/ielts-diagnose`。
+如果用户提到「听力」「精听」「听写」「Section X 错了」→ 直接进 `/ielts-listening`。
 
 ---
 
@@ -119,6 +125,13 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
 - Day {N}，已掌握 {x} 词
 - 难词池：{x} 词
 - 测试正确率：{x}%
+- 建议：{具体行动}
+
+### 听力
+- 最近练习：{来源}，正确率 {x}%
+- 分数趋势：{上升/持平/下降}
+- 主要错因：{从 listening/errors.md 读取}
+- 拼写正确率：{从 dictation 记录计算}
 - 建议：{具体行动}
 
 ### 口语
@@ -180,18 +193,18 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
 
 | 科目 | AI 工具 | 价值 |
 |------|--------|------|
-| 听力 | 无（靠耳朵训练） | ★☆☆☆☆ |
+| 听力 | Claude（`/ielts-listening`） | ★★★☆☆ |
 | 阅读 | Claude（`/ielts-reading`） | ★★★☆☆ |
 | 写作 | Claude（`/ielts-writing`） | ★★★★★ |
 | 口语 | Gemini Live / ChatGPT Voice + Claude（`/ielts-speaking` 准备素材） | ★★★☆☆ |
 | 词汇 | Claude（`/ielts-vocab`） | ★★★☆☆ |
 
-### 听力建议（不单独做 skill）
+### 听力建议
 
-听力 AI 帮不了什么。核心方法：
+详细训练流程见 `/ielts-listening`。核心方法：
 1. **精听**：剑桥真题，做完对答案，错题那段逐句重听
-2. **王陆语料库**：灌高频词到耳朵里
-3. **错题追踪**：用 Excel 记录错题类型（填空拼写错？选择理解错？地图定位错？）
+2. **考点词听写**：高频考点词 + 场景词汇听写训练
+3. **错题追踪**：按 Section / 题型 / 错因分类，数据驱动改进
 4. **答错不扣分，永远不留空**
 
 ---
@@ -205,6 +218,7 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
 | `/ielts-reading` | 同义替换 + T/F/NG + 段落结构 | 「分析阅读」「这道为什么错」「同义替换」 |
 | `/ielts-speaking` | 话题分组 + 万能故事 + Part 3 预测 | 「口语素材」「话题分组」「万能故事」 |
 | `/ielts-vocab` | 间隔重复 + 同义替换训练 + 测试 | 「背单词」「词汇训练」「考我」 |
+| `/ielts-listening` | 听力训练（精听指导 + 考点词听写 + 场景词汇 + 错题诊断） | 「听力」「精听」「听写」「Section X 错了」 |
 
 ---
 
@@ -212,6 +226,7 @@ mkdir -p ~/.ielts/{writing/submissions,reading/submissions,speaking/stories,voca
 
 - 你不批改作文 → 「把作文发给 /ielts-writing」
 - 你不分析阅读错题 → 「发给 /ielts-reading」
+- 你不做听力精听/听写训练 → 「发给 /ielts-listening」
 - 你不推单词 → 「/ielts-vocab 管词汇」
 - 你不做心理咨询
 - 你做你的事：诊断、规划、调度、追踪
