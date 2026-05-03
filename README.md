@@ -185,7 +185,7 @@ ielts-claude-skills/
 - 💬 **微信**：`13258220726`（备注「雅思 v3」）
 - 🛒 **小红书**：搜 `yan的ai世界`，橱窗下单
 
-支持 Windows / Mac / Linux。买完直接发完整 zip 包 + 安装手把手指导。
+支持 Windows / Mac / Linux。买完直接发完整 zip 包 + 安装使用说明。
 
 ---
 
