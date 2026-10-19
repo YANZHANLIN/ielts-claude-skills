@@ -6,7 +6,10 @@
 [免费版安装](#免费版怎么安装) · [V5.0 有什么](#v50) · [查看完整产品页](https://zhanlinyan.com/products/ielts-skills)
 
 <p align="center">
-  <img src="assets/v5/product-cover.png" width="680" alt="雅思听说读写 AI 快速提分系统 V5.0 产品封面" />
+  <img src="assets/v5/product-cover.png" width="23%" alt="雅思听说读写 AI 快速提分系统 V5.0 产品封面" />
+  <img src="assets/v5/why-yan.png" width="23%" alt="YAN 用 AI 自学雅思，两个月从 6 分到 7.5 分" />
+  <img src="assets/v5/user-feedback.png" width="23%" alt="雅思 AI 学习系统的部分用户反馈" />
+  <img src="assets/v5/ai-coaches-dashboard.png" width="23%" alt="12 个雅思 AI 教练和本地数据看板" />
 </p>
 
 ---
@@ -36,11 +39,6 @@
 
 只剩 48 小时，可以直接说“雅思 Skill 救我”，让它按小时倒排任务；还有两周或两个月，就按你的考试日期、目标分和当前水平规划训练。做完以后，它会批改、归因、保存记录，再根据结果安排下一次复习。
 
-<p align="center">
-  <img src="assets/v5/why-yan.png" width="48%" alt="YAN 用 AI 自学雅思，两个月从 6 分到 7.5 分" />
-  <img src="assets/v5/ai-coaches-dashboard.png" width="48%" alt="12 个雅思 AI 教练和本地数据看板" />
-</p>
-
 ### 这次 V5.0 真正增加了什么
 
 | 核心部分 | 不是一个空目录，而是这些内容 |
@@ -68,11 +66,6 @@
 | 雅思答疑社群 | 雅思老师、正在备考的同学和已经考出高分的同学一起答疑、监督和同步更新 |
 | 完整交付包 | 安装指南、使用手册、常见问题、升级说明和 258 页《Claude Code 非程序员完全落地指南》 |
 | 后续更新 | 已购用户免费获得题库、教练和系统的新版本 |
-
-<p align="center">
-  <img src="assets/v5/four-skills.png" width="48%" alt="雅思听说读写四科训练方法" />
-  <img src="assets/v5/user-feedback.png" width="48%" alt="雅思 AI 学习系统的部分用户反馈" />
-</p>
 
 ### 12 个教练分别负责什么
 
