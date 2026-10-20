@@ -128,7 +128,7 @@ Dashboard 和机考台需要 Node.js 18 或更高版本。Claude Code、Codex �
 完整版价格：**¥299**。下单后获得完整交付包、雅思答疑社群和后续更新。
 
 - 产品详情：[zhanlinyan.com/products/ielts-skills](https://zhanlinyan.com/products/ielts-skills)
-- 小红书：搜索 `yan的ai世界`，在橱窗下单
+- 小红书：搜索 `yan（ai自学雅思版）`，在橱窗下单
 - 微信：`Yyyzzzll410`，备注“雅思 V5”
 
 > AI 给出的分数和分析属于训练反馈，不是官方成绩。本产品不是 IELTS、British Council、IDP 或 Cambridge 官方产品。
